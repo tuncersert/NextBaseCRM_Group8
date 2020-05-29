@@ -1,7 +1,8 @@
 package tests;
 
-public class Yusuf {
+public class Fatihs_class {
+
     public static void main(String[] args) {
-        System.out.println("Yusuf's Class");
+        // Fatih's class
     }
 }
