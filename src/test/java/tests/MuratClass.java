@@ -5,5 +5,6 @@ public class MuratClass {
         System.out.println("Murat's class");
         //just to make a difference
         //second difference
+        //**********
     }
 }
