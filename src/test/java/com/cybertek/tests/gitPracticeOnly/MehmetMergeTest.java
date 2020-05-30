@@ -1,4 +1,4 @@
-package tests.gitPracticeOnly;
+package com.cybertek.tests.gitPracticeOnly;
 
 public class MehmetMergeTest {
     public static void main(String[] args) {

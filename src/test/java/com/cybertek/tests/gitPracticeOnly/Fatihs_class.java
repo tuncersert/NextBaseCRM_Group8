@@ -1,4 +1,4 @@
-package tests.gitPracticeOnly;
+package com.cybertek.tests.gitPracticeOnly;
 
 public class Fatihs_class {
 
