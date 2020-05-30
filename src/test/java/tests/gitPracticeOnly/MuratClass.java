@@ -1,4 +1,4 @@
-package tests;
+package tests.gitPracticeOnly;
 
 public class MuratClass {
     public static void main(String[] args) {
