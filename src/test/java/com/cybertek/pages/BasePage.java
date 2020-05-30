@@ -26,8 +26,8 @@ public abstract class BasePage {
     @FindBy(xpath = "(//span[@class='menu-popup-item-text'])[5]") //adjusted to NextBaseCRM page
     public WebElement logOutLink;
 
-    @FindBy(linkText = "My User")
-    public WebElement myUser;
+    @FindBy(xpath = "//span[@class='menu-popup-item-text'][.='My Profile']") //adjusted to NextBaseCRM Page
+    public WebElement myProfile;
 
     public BasePage() {
         PageFactory.initElements(Driver.get(), this);
@@ -67,16 +67,15 @@ public abstract class BasePage {
     }
 
 
-
     public void logOut(){
         BrowserUtils.waitFor(2);
         BrowserUtils.clickWithJS(userName);
         BrowserUtils.clickWithJS(logOutLink);
     }
-    public void goToMyUser(){
+    public void goToMyProfile(){
         waitUntilLoaderScreenDisappear();
         BrowserUtils.waitForClickablility(userName, 5).click();
-        BrowserUtils.waitForClickablility(myUser, 5).click();
+        BrowserUtils.waitForClickablility(myProfile, 5).click();
 
     }
 
