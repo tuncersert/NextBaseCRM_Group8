@@ -20,10 +20,10 @@ public abstract class BasePage {
     @FindBy(css = "h1[class='oro-subtitle']")
     public WebElement pageSubTitle;
 
-    @FindBy(css = "#user-menu > a")
+    @FindBy(css = "#user-name") //adjusted to NextBaseCRM
     public WebElement userName;
 
-    @FindBy(linkText = "Logout")
+    @FindBy(xpath = "(//span[@class='menu-popup-item-text'])[5]") //adjusted to NextBaseCRM page
     public WebElement logOutLink;
 
     @FindBy(linkText = "My User")
