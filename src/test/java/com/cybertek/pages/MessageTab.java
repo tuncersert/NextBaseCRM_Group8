@@ -29,7 +29,8 @@ public class MessageTab extends BasePage {
     public WebElement videoSourceBox;
 
     @FindBy(id = "undefined")
-    public WebElement saveVideo;
+    public WebElement submitVideo;
+
 
     public void clickUploadFiles(){
         uploadFilesBtn.click();
