@@ -28,6 +28,8 @@ public class ugur2RecordVideoTest extends TestBase {
         Assert.assertEquals(ActualMessage,ExpectedMessage,"error message");
         extentLogger.pass("there is an error in the system");
         extentLogger.info("logout");
+
+        System.out.println("hi");
         messageTab.ClickUsernameBeforeLogout.click();
         messageTab.Logout.click();
 //        driver.findElement(By.cssSelector("#user-name")).click();
