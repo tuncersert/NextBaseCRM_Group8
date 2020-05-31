@@ -1,4 +1,4 @@
-package tests;
+package com.cybertek.tests.gitPracticeOnly;
 
 public class MuratClass {
     public static void main(String[] args) {
