@@ -1,7 +1,6 @@
 package com.cybertek.tests;
 
 import com.cybertek.pages.LoginPage;
-import com.cybertek.pages.MessageTab;
 import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.By;

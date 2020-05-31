@@ -3,7 +3,6 @@ package com.cybertek.tests.gitPracticeOnly;
 import com.cybertek.pages.LoginPage;
 import com.cybertek.pages.MessageTab;
 import com.cybertek.tests.TestBase;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
