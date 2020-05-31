@@ -40,7 +40,7 @@ public class TestBase {
         report.attachReporter(htmlReporter);
 
         //title in report
-        htmlReporter.config().setReportName("Vytrack Smoke Test");
+        htmlReporter.config().setReportName("NextBaseCRM Smoke Test");
 
         //set environment information
         report.setSystemInfo("Environment","QA");
