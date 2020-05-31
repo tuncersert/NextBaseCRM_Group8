@@ -45,6 +45,22 @@ public class MessageTab extends BasePage {
         videoSourceBox.sendKeys(videoURL);
     }
 
+    // Record Vidoe links by Ugur
+    @FindBy(xpath = "( //div[@id='post-buttons-bottom']/span[text()='Record Video'])[1]")
+    public WebElement RecordVideoButton;
+
+    @FindBy(css = ".popup-window-button.popup-window-button-blue")
+    public WebElement RecordVideoAllowButton;
+
+    @FindBy(css = "#popup-window-content-bx-popup-videomessage-popup")
+    public WebElement RecordVideoErrorMessageText;
+
+    @FindBy(css = "#user-name")
+    public WebElement ClickUsernameBeforeLogout;
+
+    @FindBy(xpath = "//span[text()='Log out']")
+    public WebElement Logout;
+
 
 }
 
