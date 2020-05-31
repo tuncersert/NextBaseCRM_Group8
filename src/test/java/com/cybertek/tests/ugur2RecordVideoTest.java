@@ -1,4 +1,4 @@
-package com.cybertek.tests.gitPracticeOnly;
+package com.cybertek.tests;
 
 import com.cybertek.pages.LoginPage;
 import com.cybertek.pages.MessageTab;
